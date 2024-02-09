@@ -1,0 +1,92 @@
+body {
+    width: 100%;
+    text-align: center;
+    text-justify: inter-character;
+    font-size: 18px;
+    font-family: "Roboto";
+    background: url(../assets/bg_texturepacks.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#centerContainer {
+    width: 40%;
+    text-align: justify;
+    text-justify: inter-character;
+    margin: 0px auto;
+    color: white;
+}
+
+a:hover {
+
+    text-decoration: underline;
+    color: #0dfa75;
+}
+
+
+
+a {
+    color: inherit;
+    margin-top: 50;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 25;
+    font-family: Futura;
+    color: #0dfa75;
+}
+
+h2 {
+    font-kerning: normal;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #0dfa75;
+
+    font-family: "Montserrat";
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #0dfa75;
+
+    font-family: "Montserrat";
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 10;
+    font-size: 15px;
+    width: 100%;
+    color: #0dfa75;
+    text-align: center;
+}
